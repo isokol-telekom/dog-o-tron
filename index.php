@@ -185,7 +185,13 @@ if($db_link) {
 		
 	};	// if(@mysql_query("SET CHARACTER SET utf8") ) ...
 	
-};	// if($db_link) ...
+}; // if(@mysql_query("SET CHARACTER SET utf8") ) ...
+
+} else {
+
+echo @mysql_error();
+
+}; // if($db_link) ...
 
 
 echo '</body>
