@@ -11,18 +11,13 @@ echo '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 	</head>
 <body>';
 
-// ============================================================================
-// read data
-#require 'appl_config_data.php';
-require 'access_data.php';
-#require 'is_funkcie.php';
 
 // ============================================================================
 // => connect to DB
 
-$continue = false;
-
 $db_link = @mysql_connect($sql_server,$sql_user,$sql_pwd);
+
+echo $db_link.' - Error: '.@mysql_error().'<br>';
 
 if($db_link) {
 
@@ -186,8 +181,6 @@ if($db_link) {
 		
 	};	// if(@mysql_query("SET CHARACTER SET utf8") ) ...
 	
-}; // if(@mysql_query("SET CHARACTER SET utf8") ) ...
-
 }; // if($db_link) ...
 
 
