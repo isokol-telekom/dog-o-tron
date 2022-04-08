@@ -18,7 +18,7 @@ require 'access_data.php';
 #require 'is_funkcie.php';
 
 // ============================================================================
-// => connect to NEW HORIZONS DB
+// => connect to DB
 
 $continue = false;
 

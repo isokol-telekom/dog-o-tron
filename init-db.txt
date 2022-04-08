@@ -1,0 +1,5 @@
+CREATE TABLE `aaa_dog` (
+`draha_1` int(11) DEFAULT '0',
+`draha_2` int(11) DEFAULT '0',
+`beh_info` varchar(255) COLLATE utf8_czech_ci DEFAULT '-'
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_czech_ci

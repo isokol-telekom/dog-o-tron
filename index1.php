@@ -7,7 +7,7 @@ echo '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 	<title>HOT DOGS</title>
 	<link rel="shortcut icon" href="favicon.ico">
-	<meta http-equiv="refresh" content="2; URL=https://scapaflow.st.sk/scapaflow/is_new_horizons/fed/dog/index1.php">
+	<meta http-equiv="refresh" content="2; URL=https://bezime.cat6.cz/index1.php">
 	<link rel="stylesheet" type="text/css" href="is.css">
 	</head>
 <body>';
