@@ -1,0 +1,127 @@
+/* https://www.w3schools.com/colors/colors_palettes.asp 
+
+2015 Palettes 
+
+HEX: #e4d1d1
+HEX: #b9b0b0
+HEX: #d9ecd0
+HEX: #77a8a8
+
+
+HEX: #f0efef
+HEX: #ddeedd
+HEX: #c2d4dd
+HEX: #b0aac0
+
+*/
+
+html {
+    overflow-y: scroll;
+	overflow-x: scroll;
+}
+
+body, table {
+	background: #c4b7a6;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: Black;
+}
+
+
+select {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: Black;
+}
+
+option{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: Black;
+}
+
+
+input{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: Black;
+}
+
+.input_50{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	width: 50;
+}
+
+.input_75{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	width: 75;
+}
+
+.input_100{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	width: 100;
+}
+
+.input_150{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	width: 150;
+}
+
+.input_200{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	width: 200;
+}
+
+.input_250{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	width: 250;
+}
+
+.input_350{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	width: 350;
+}
+
+.input_400{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	width: 400;
+}
+
+
+.input_500{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	width: 500;
+}
+
+.dbg{
+	font-family: Courier New, Courier, monospace;
+	font-size: 8pt;
+	color: Maroon;
+}
+
+.dbg_error{
+	font-family: Courier New, Courier, monospace;
+	font-size: 8pt;
+	color: Red;
+}
+
+form {
+	margin-bottom: 0;
+}
+
+
+input{
+	border-style: ridge;
+	border-width: 1px
+}
+
+
