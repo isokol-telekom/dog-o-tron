@@ -29,6 +29,11 @@ require 'access_data.php';
 $continue = false;
 
 $db_link = @mysql_connect($sql_server,$sql_user,$sql_pwd);
+
+echo $db_link;
+
+echo 'Error: '.@mysql_error();
+
 if($db_link) {
 
 	if(@mysql_query("set character set utf8") ) {
@@ -192,10 +197,6 @@ if($db_link) {
 	};	// if(@mysql_query("SET CHARACTER SET utf8") ) ...
 	
 }; // if(@mysql_query("SET CHARACTER SET utf8") ) ...
-
-} else {
-
-echo @mysql_error();
 
 }; // if($db_link) ...
 
